@@ -11,6 +11,8 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet(name = "requestParamServlet", urlPatterns = "/request-param")
 public class RequestParamServlet extends HttpServlet {
 
+    // request.getParameter() 는 GET URL 쿼리 파라미터 형식도 지원하고,
+    // POST HTML Form 형식도 둘다 지원한다.
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {

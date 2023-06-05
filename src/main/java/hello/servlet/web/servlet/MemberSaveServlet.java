@@ -9,8 +9,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import hello.servlet.domain.mamber.Member;
-import hello.servlet.domain.mamber.MemberRepository;
+import hello.servlet.domain.member.Member;
+import hello.servlet.domain.member.MemberRepository;
 
 @WebServlet(name = "memberSaveServlet", urlPatterns = "/servlet/members/save")
 public class MemberSaveServlet extends HttpServlet {

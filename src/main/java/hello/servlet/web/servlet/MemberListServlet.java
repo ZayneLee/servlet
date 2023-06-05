@@ -10,8 +10,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import hello.servlet.domain.mamber.Member;
-import hello.servlet.domain.mamber.MemberRepository;
+import hello.servlet.domain.member.Member;
+import hello.servlet.domain.member.MemberRepository;
 
 @WebServlet(name = "memberListServlet", urlPatterns = "/servlet/members")
 public class MemberListServlet extends HttpServlet {

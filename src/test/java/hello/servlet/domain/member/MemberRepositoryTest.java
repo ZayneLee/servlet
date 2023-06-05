@@ -7,8 +7,8 @@ import java.util.List;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 
-import hello.servlet.domain.mamber.Member;
-import hello.servlet.domain.mamber.MemberRepository;
+import hello.servlet.domain.member.Member;
+import hello.servlet.domain.member.MemberRepository;
 
 class MemberRepositoryTest {
     MemberRepository memberRepository = MemberRepository.getInstance();
